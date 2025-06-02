@@ -1,9 +1,6 @@
 a=input("Enter the word: ")
 b=input("Enter the word: ")
 
-a = a.replace(" ", "").lower()
-b = b.replace(" ","").lower()
-
 if sorted(a)==sorted(b):
     print("Anagram")
 else:

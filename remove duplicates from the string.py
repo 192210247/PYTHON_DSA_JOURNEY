@@ -5,5 +5,5 @@ for word in words:
     if word not in s_word:
         s_word.add(word)
         word_list.append(word)
-output="".join(word_list)
+output="".join(s_word)
 print(output)

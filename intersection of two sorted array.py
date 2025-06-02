@@ -11,3 +11,4 @@ unique= set(arr1) |  set(arr2)
 result=sorted(unique)
 print("The Intersection of the two array is ",unique)
 print("The Intersection of the two array is ",result)
+
