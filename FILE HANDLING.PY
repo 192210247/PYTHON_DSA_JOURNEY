@@ -1,5 +1,5 @@
 # Write to file
-with open("text.py","a") as f:    
+with open("text.py","a  ") as f:    
     f.write("Hi im varsha")
 
 # Read from file
