@@ -1,9 +1,8 @@
-def fibonacci(num):
-    if num==0:
-        return 0
-    elif num==1:
-        return 1
-    return fibonacci(num-1)+fibonacci(num=2)
-
-result=fibonacci()
-print(result)
+value= int(input("Enter the input: "))
+a=0
+b=1
+while value>0:
+    print(a)
+    print(b)
+    c=a+b
+    
