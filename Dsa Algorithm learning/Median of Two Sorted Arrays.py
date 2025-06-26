@@ -13,7 +13,7 @@ if n % 2 == 1:
     median = combined[n // 2]
 else:
     # Even number of elements: average of two middle elements
-    median = (combined[n // 2 - 1] + combined[n // 2]) / 2
+    median = (combined[n // 2 - 1] + combined[n // 2]) // 2
 
 print("Sorted Combined List:", combined)
 print("Median:", median)
