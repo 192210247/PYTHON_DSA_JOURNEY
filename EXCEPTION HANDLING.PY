@@ -7,13 +7,14 @@ try:
     num2 = int(input("Enter the denominator: "))
     result = divisor(num1, num2)
     print(f"Result: {result}")
-    
+    .
+except Exception:
+    print("Some error occured")
 except ValueError:
     print("Please enter only integers")
 except ZeroDivisionError:
     print("Cannot divide by zero")
 except Exception as e:
     print(f"An unexpected error occurred: {e}")
-finally:
-    print("Thank you")
+print("Thank you")
 
