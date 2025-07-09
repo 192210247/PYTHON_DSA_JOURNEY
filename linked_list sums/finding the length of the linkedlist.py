@@ -12,12 +12,13 @@ class LinkedList :
         newnode = node(data)
         if self.head == None:
             self.head = newnode
+            self.count +=1
         else:
             cur = self.head
             while cur.pointer is not None:
                 cur = cur.pointer
             cur.pointer = newnode
-        self.count +=1
+            self.count +=1
 
     def remove(self,data):
             if self.head is  not None:
