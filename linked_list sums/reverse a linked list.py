@@ -34,7 +34,6 @@ class LinkedList:
             cur = cur.pointer
         print("None")
 
-# Example usage:
 ll = LinkedList()
 for val in ['A', 'B', 'C', 'D']:
     ll.add(val)
