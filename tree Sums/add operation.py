@@ -51,7 +51,7 @@ class TreeStructure:
 
     def findParentNode(self, data, node):
         for child in node.children:
-            if child.name== data:
+            if child.name == data:
                 return node
             nodefound = self.findParentNode(data,child)
             if nodefound:
